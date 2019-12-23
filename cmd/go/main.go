@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/kellegous/go/backend"
-	"github.com/kellegous/go/backend/leveldb"
-	"github.com/kellegous/go/web"
+	"github.com/ansky/go/backend"
+	"github.com/ansky/go/backend/leveldb"
+	"github.com/ansky/go/web"
 )
 
 func main() {

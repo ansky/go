@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kellegous/go/internal"
+	"github.com/ansky/go/internal"
 )
 
 func TestGetPut(t *testing.T) {
@@ -33,7 +33,7 @@ func TestGetPut(t *testing.T) {
 	}
 
 	a := &internal.Route{
-		URL:  "http://www.kellegous.com/",
+		URL:  "http://www.ansky.com/",
 		Time: time.Now(),
 	}
 
